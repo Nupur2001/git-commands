@@ -1,0 +1,28 @@
+OPEN GIT BASH
+1.git clone url(repo name url)
+
+2.cd folder name
+
+3.ls
+
+4.git add index.html
+
+5.git commit -m"Message"
+
+6.git status
+
+7.git push
+
+8.git log
+
+MERGE CONFLICTS
+9.git commit -am"Add message" (Automatic merge) 
+
+10.git pull
+
+BRANCH
+11.git branch -> to check the branch 
+
+12.git checkout -b -> checkout to new branch
+
+13.git merge branch name
