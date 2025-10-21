@@ -1,7 +1,6 @@
 # 🧠 Git & GitHub Commands Cheatsheet
 
 ## 🔹 Setup & Clone Repository
-```bash
 # Clone a repository from GitHub
 git clone <repository-url>
 
@@ -10,6 +9,7 @@ cd <folder-name>
 
 # List files inside the directory
 ls
+
 
 ## 🔹 Add, Commit & Push Changes
 # Add a specific file (example: index.html)
