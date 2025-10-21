@@ -1,28 +1,59 @@
-OPEN GIT BASH
-1.git clone url(repo name url)
+# 🧠 Git & GitHub Commands Cheatsheet
 
-2.cd folder name
+## 🔹 Setup & Clone Repository
+```bash
+# Clone a repository from GitHub
+git clone <repository-url>
 
-3.ls
+# Navigate into the project folder
+cd <folder-name>
 
-4.git add index.html
+# List files inside the directory
+ls
 
-5.git commit -m"Message"
+## 🔹 Add, Commit & Push Changes
+# Add a specific file (example: index.html)
+git add index.html
 
-6.git status
+# Commit changes with a message
+git commit -m "Your commit message"
 
-7.git push
+# Check the status of your repository
+git status
 
-8.git log
+# Push committed changes to remote repository
+git push
 
-MERGE CONFLICTS
-9.git commit -am"Add message" (Automatic merge) 
+# View commit history
+git log
 
-10.git pull
 
-BRANCH
-11.git branch -> to check the branch 
+## ⚡ Handling Merge Conflicts
+# Commit all changes (auto stage + commit)
+git commit -am "Add message"
 
-12.git checkout -b -> checkout to new branch
+# Pull latest changes from remote (to merge updates)
+git pull
 
-13.git merge branch name
+
+## 🌿 Working with Branches
+# Check all available branches
+git branch
+
+# Create and switch to a new branch
+git checkout -b <new-branch-name>
+
+# Merge a branch into the current branch
+git merge <branch-name>
+
+
+## 💡 Quick Notes
+# Always pull before pushing to avoid merge conflicts
+# Use 'git status' frequently to track file changes
+# Use clear, descriptive commit messages for better project history
+
+# Delete a branch locally
+git branch -d <branch-name>
+
+# Delete a branch remotely
+git push origin --delete <branch-name>
